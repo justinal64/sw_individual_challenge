@@ -36,3 +36,6 @@ What is the difference between the sum of the squares of the first ten natural n
 Challenge #7
 
 Your challenge is to replicate the shapes, and the animations that you see in the animated GIF below. You must only use CSS. No JavaScript and no images.
+
+Phil 4:13
+I can do all things through Christ who gives me strength.

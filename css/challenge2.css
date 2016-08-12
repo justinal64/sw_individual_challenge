@@ -1,0 +1,11 @@
+a:hover {
+    color: red;
+}
+
+li:hover {
+    background-color: pink;
+}
+
+a:active {
+    font-size: 2em;
+}
