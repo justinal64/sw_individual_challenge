@@ -2,4 +2,3 @@ console.log(document.getElementsByTagName("a").parentNode);       //.style.backg
 
 var test = document.querySelectorAll('li > a');
 
-console.log(test);
