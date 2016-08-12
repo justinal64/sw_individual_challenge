@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+.nav {
+    display: inline-flex;
+    list-style-type: none;
+    width: 100%;
+    background-color: aqua;
+}
+
+li {
+    padding-right: .25em;
+}
+
+ul {
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    height: 2em;
+}
+
