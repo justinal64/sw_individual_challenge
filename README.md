@@ -4,10 +4,15 @@
 
 ## Description
 The challenge had 7 different tasks to complete.
+<br>
 1. Create a slider that updated an input field with it's current value.
+<br>
 2. Create an interactive navigation bar.
+<br>
 3. Make the navigation bar stick to the top fo the page as the user scrolls down.
+<br>
 Challenge 4 - 6 Where about a Fibonacci number generator.
+<br>
 7. Was a css challenge to recreate a gif.
 
 ## How to run
