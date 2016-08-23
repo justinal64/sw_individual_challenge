@@ -11,7 +11,7 @@ The challenge had 7 different tasks to complete.
 <br>
 3. Make the navigation bar stick to the top fo the page as the user scrolls down.
 <br>
-Challenge 4 - 6 Where about a Fibonacci number generator.
+4 - 6 Where about a Fibonacci number generator.
 <br>
 7. Was a css challenge to recreate a gif.
 
