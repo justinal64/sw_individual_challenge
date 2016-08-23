@@ -28,5 +28,4 @@ for(var i = 0; i <= 500;) {
             console.log(i);
         }
     }
-
 }
