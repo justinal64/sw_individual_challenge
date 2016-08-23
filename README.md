@@ -1,41 +1,67 @@
-Challenge #1
-
-Create a form that has a range input, and a number input, both with the same values for min, max, and default. When the user changes the value on the range input, the value of the number input should match. The opposite should be true. The values of the two inputs should always be synchronized.
+#Individual Challenge
 
 
-Challenge #2: Interactive navigation bar
 
-Create a navigation bar out of an unordered list element, and add the following interactivity.
+## Description
+The challenge had 7 different tasks to complete.
+1. Create a slider that updated an input field with it's current value.
+2. Create an interactive navigation bar.
+3. Make the navigation bar stick to the top fo the page as the user scrolls down.
+Challenge 4 - 6 Where about a Fibonacci number generator.
+7. Was a css challenge to recreate a gif.
 
-When the user hovers over one of the links, the color of the text should change.
-When the user hovers over one of the links, the background color of the element that contains the link should change.
-When the user clicks on one of the links, the element that contains the link should grow in size by 5px on the left and right.
+## How to run
+In your terminal run:
+```
+http-server -p 9999
+```
+then navigate to http://localhost:9999 in your browser.
 
-Challenge #3: Sticky navigation bar
+## Screenshots
+##Challenge 1
+![Challenge 1](img/Challenge1.png)
+##Challenge 3
+![Challenge3](img/Challenge3.png)
+##Challenge 4 - 6 Fibonacci number generator
+```
+// Write a Fibonacci number generator that outputs the numbers in the series that are less than 500.
+// the sequence should go
 
-You will learn more about how to do this in CSS102, but if you want a challenge now, create a web page that has a navigation bar and plenty of articles so that the content goes well below the fold (fancy term for the amount of real estate that exists when the user first loads the page).
+var counter = 0;
+var preNumber = 0;
+var trashVar = 1;
 
-When the user scrolls now to read the rest of the content, the navigation bar should remain at the top of the page, always visible, no matter how far down the user scrolls.
+// use a for loop to add the numbers
+for(var i = 0; i <= 500;) {
+    if (i === 0) {
+        console.log(i + preNumber);
+        i++;
+    } else if (i <= 1) {
+        console.log(i);
+        preNumber = i;
+        console.log(preNumber);
+        i++;
+    } else if (i <= 2) {
+        console.log(i);
+        preNumber = i;
+        i++;
+        console.log(i);
+    } else {
+        trashVar = i + preNumber;
+        preNumber = i;
+        i = trashVar;
+        if(i <= 500) {
+            console.log(i);
+        }
+    }
+}
+```
+##Fibonacci output
+![Fibonacci Output](img/Fibonacci_output.png)
+##Challenge 7
+![Challenge 7](img/Challenge7.png)
+##Challenge 7 Animated
+![Challenge 7 Animated](img/Challenge7_animated.png)
 
-
-Challenge #4
-
-What is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder?
-
-
-Challenge #5
-
-Write a Fibonacci number generator that outputs the numbers in the series that are less than 500.
-
-
-Challenge #6
-
-What is the difference between the sum of the squares of the first ten natural numbers, and the square of the sum of the first ten natural numbers?
-
-
-Challenge #7
-
-Your challenge is to replicate the shapes, and the animations that you see in the animated GIF below. You must only use CSS. No JavaScript and no images.
-
-Phil 4:13
-I can do all things through Christ who gives me strength.
+## Contributors
+- [Justin Leggett](https://github.com/justinal64)
